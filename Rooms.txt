@@ -1,0 +1,147 @@
+Rooms
+ID = 1, name = Beginning
+Description
+You are standing at the end of a road before a dark and dank cave. The forest is covering the road lending a dark and
+spooky aspect to the road. You hear a low wailing that seems to be coming from the cave.
+exits
+You can go WEST
+
+
+ID = 2, name = Entrance
+Description
+You have entered a dark, low cave that seems to lead to a slightly larger cavern to the west. Strangely you see a faint
+glow coming from the east.
+exits
+You can go EAST or WEST
+
+ID = 3, name = Cavern
+Description
+You enter a large cavern. You are surprised to find that the walls of the cave are glowing so you have no problem
+seeing the large stalactites that have formed. To the south you hear the sound of rushing water. To the north you hear
+strange sounds that sound like someone with a broken heart. You see as set of stairs at the west end of the cavern.
+exits
+You can go EAST or NORTH or DOWN
+
+ID = 4, name = Spooky Cave
+Description
+You have entered a dark twisting, tunnel that seems to wind around the Cavern. The low wailing you heard before has
+risen to a screech that is making your hair stand on end. You see a sign that says "Proceed at your own risk. Anyone
+entering this area will be eaten.
+exits
+You can go SOUTH or NORTH
+
+ID = 5, name = Rushing River
+Description
+You have entered a wet, slippery cave. You are standing on a narrow ledge. As you slip toward the rushing river, you
+think, "I shouldn't be here.
+exits
+You can go SOUTH
+
+ID = 6, name = Second level
+Description
+At the bottom of the stairs you see a skeleton from a previous adventurer. You really wish you had some good weapons.
+exits
+You can go UP or NORTH or SOUTH or WEST
+
+ID = 7, name = Dead End
+Description
+As you enter this dark and forbidding cavern you hear the roar of some enormous monster.
+You decide that leaving this place would be a great idea.
+exits
+You can go SOUTH
+
+ID = 8, name = Cavern of Bones
+Description
+This room is covered with the bones of previous adventurers.
+exits
+You can go NORTH
+
+ID = 9, name = Impending Doom
+Description
+You feel very frightened by this room. Perhaps you need to leave quickly.
+exits
+You can go EAST or NORTH
+
+ID = 10, name = Finish
+Description
+Congratulations!!! You have completed the journey through my maze
+exits
+You can go SOUTH
+
+
+Welcome to my adventure game. You will proceed through rooms based upon your entries.
+You can navigate by using the entire direction or just the first letter.
+You can view a room using the 'Look' command.
+To exit(X) the game, enter X
+
+
+Beginning Not visited
+You are standing at the end of a road before a dark and dank cave. The forest is covering the road lending a dark and
+spooky aspect to the road. You hear a low wailing that seems to be coming from the cave.
+You can go WEST
+What would you like to do?
+n
+Invalid direction entered
+
+
+What would you like to do?
+w
+Entrance Not visited
+You have entered a dark, low cave that seems to lead to a slightly larger cavern to the west. Strangely you see a faint
+glow coming from the east.
+You can go EAST or WEST
+
+
+What would you like to do?
+w
+Cavern Not visited
+You enter a large cavern. You are surprised to find that the walls of the cave are glowing so you have no problem
+seeing the large stalactites that have formed. To the south you hear the sound of rushing water. To the north you hear
+strange sounds that sound like someone with a broken heart. You see as set of stairs at the west end of the cavern.
+You can go EAST or NORTH or DOWN
+
+
+What would you like to do?
+e
+Entrance Visited
+You have entered a dark, low cave that seems to lead to a slightly larger cavern to the west. Strangely you see a faint
+glow coming from the east.
+You can go EAST or WEST
+
+
+What would you like to do?
+w
+Cavern Visited
+You enter a large cavern. You are surprised to find that the walls of the cave are glowing so you have no problem
+seeing the large stalactites that have formed. To the south you hear the sound of rushing water. To the north you hear
+strange sounds that sound like someone with a broken heart. You see as set of stairs at the west end of the cavern.
+You can go EAST or NORTH or DOWN
+
+
+What would you like to do?
+c
+An invalid command was entered
+
+
+What would you like to do?
+d
+Second level Not visited
+At the bottom of the stairs you see a skeleton from a previous adventurer. You really wish you had some good weapons.
+You can go UP or NORTH or SOUTH or WEST
+
+
+What would you like to do?
+u
+Cavern Visited
+You enter a large cavern. You are surprised to find that the walls of the cave are glowing so you have no problem
+seeing the large stalactites that have formed. To the south you hear the sound of rushing water. To the north you hear
+strange sounds that sound like someone with a broken heart. You see as set of stairs at the west end of the cavern.
+You can go EAST or NORTH or DOWN
+
+
+What would you like to do?
+x
+Exit
+
+
+Thank you for playing my Game.
