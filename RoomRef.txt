@@ -1,20 +1,18 @@
 1
 Start
-You are standing at the end of a road before a dark and dank cave. The forest is covering the road lending a dark and
-spooky aspect to the road. You hear a low wailing that seems to be coming from the cave.
-exits
-You can go WEST
-______________
-WEST 2
+You are standing at the end of a road before a dark and dank cave. The forest is covering the road lending a dark and spooky aspect to the road. You hear a low wailing that seems to be coming from the cave. You can go W from here.
+X
+X
+X
+W
 
-______________
 2
 ENTRANCE
-You have entered a dark, low cave that seems to lead to a slightly larger cavern to the west. Strangely you see a faint
-glow coming from the east. exits
-You can go EAST or WEST
-_______________
-EAST 1
-WEST 3
-_______________
+You have entered a dark, low cave that seems to lead to a slightly larger cavern to the west. Strangely you see a faint glow coming from the east. exits You can go E or W
+X
+X
+E
+W
+
+
 
