@@ -3,13 +3,14 @@ import java.util.ArrayList;
 public class Room {
     //creating Room objects by creating ID's, Room name, Description
     //and direction
-    private String id;
+    private int id;
     private String roomname;
     String descript;
     ArrayList<String> exit;
     boolean isVisited;
 
-    public Room(String id, String roomname, String descript, ArrayList<String> exit, boolean isVisited) {
+    public Room(int id, String roomname, String descript,
+                ArrayList<String> exit, boolean isVisited) {
         this.id = id;
         this.roomname = roomname;
         this.descript = descript;
@@ -17,7 +18,7 @@ public class Room {
         this.isVisited = isVisited;
     }
 
-    public String getId() {
+    public int getId() {
         return id;
     }
 
@@ -37,7 +38,7 @@ public class Room {
         return isVisited;
     }
 
-    public void setId(String id) {
+    public void setId(int id) {
         this.id = id;
     }
 

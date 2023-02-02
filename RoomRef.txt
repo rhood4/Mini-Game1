@@ -1,18 +1,22 @@
 1
-Start
-You are standing at the end of a road before a dark and dank cave. The forest is covering the road lending a dark and spooky aspect to the road. You hear a low wailing that seems to be coming from the cave. You can go W from here.
-X
-X
-X
-W
-
+Room Name
+Room Description line1 - descibe about the room ..add more descriptive
+Room description line2
+Room description line 3
+about the room 1
+true
+----
+East 1
+West 5
+----
 2
-ENTRANCE
-You have entered a dark, low cave that seems to lead to a slightly larger cavern to the west. Strangely you see a faint glow coming from the east. exits You can go E or W
-X
-X
-E
-W
-
-
-
+Room Name2
+Room Description line1 - this is Room Name 2
+Room Description line2 - this is Room Name 2
+Room Description line3 - this is Room Name 2
+Room Description line4 - this is Room Name 2
+false
+----
+South 5
+East 2
+----

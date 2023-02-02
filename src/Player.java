@@ -4,6 +4,11 @@ public class Player {
     boolean isAlive;
     int location;
 
+    //create a default constructor
+
+    //create another constructor by taking isAlive and location.
+
+
     public boolean isAlive() {
         return isAlive;
     }
