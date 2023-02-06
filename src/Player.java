@@ -5,9 +5,15 @@ public class Player {
     int location;
 
     //create a default constructor
+    public Player(){
+
+    }
 
     //create another constructor by taking isAlive and location.
-
+    public Player(boolean isAlive, int location) {
+        this.isAlive = isAlive;
+        this.location = location;
+    }
 
     public boolean isAlive() {
         return isAlive;

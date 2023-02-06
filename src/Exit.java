@@ -3,9 +3,16 @@ public class Exit {
     private String direction;
 
     //add no-arg constructor - default constructor
+    public Exit() {
+
+    }
+
 
     //add another constructor taking two parameters: direction and destination.
-
+    public Exit(int destination, String direction) {
+        this.destination = destination;
+        this.direction = direction;
+    }
 
     public int getDestination() {
         return destination;
@@ -25,4 +32,10 @@ public class Exit {
 
     //add toString method to return direction and the destination.
 
+    @Override
+    public String toString() {
+        return "Exit:" +
+                "destination=" + destination +
+                ", direction='" + direction + '\'' ;
+    }
 }

@@ -1,0 +1,4 @@
+Welcome to THE ADVENTURE GAME. In this game, you will
+proceed through rooms based upon your entries. You can navigate by using
+the entire direction or just the first letter.
+To exit (x) the game, enter X

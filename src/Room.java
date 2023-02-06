@@ -5,11 +5,11 @@ public class Room {
     //and direction
     private int id;
     private String roomname;
-    String descript;
+    ArrayList<String> descript;
     ArrayList<String> exit;
     boolean isVisited;
 
-    public Room(int id, String roomname, String descript,
+    public Room(int id, String roomname, ArrayList<String> descript,
                 ArrayList<String> exit, boolean isVisited) {
         this.id = id;
         this.roomname = roomname;
@@ -26,7 +26,7 @@ public class Room {
         return roomname;
     }
 
-    public String getDescript() {
+    public ArrayList<String> getDescript() {
         return descript;
     }
 
@@ -46,7 +46,7 @@ public class Room {
         this.roomname = roomname;
     }
 
-    public void setDescript(String descript) {
+    public void setDescript(ArrayList<String> descript) {
         this.descript = descript;
     }
 

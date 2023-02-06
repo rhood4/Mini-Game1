@@ -1,22 +1,100 @@
 1
-Room Name
-Room Description line1 - descibe about the room ..add more descriptive
-Room description line2
-Room description line 3
-about the room 1
-true
+Beginnning
+You are standing at the end of a road before a dark and dank cave.
+The forest is covering the road lending a dark and
+spooky aspect to the road. You hear a low wailing that seems to be coming from the cave.
+exits
+You can go WEST
+
 ----
-East 1
-West 5
+WEST 2
 ----
 2
-Room Name2
-Room Description line1 - this is Room Name 2
-Room Description line2 - this is Room Name 2
-Room Description line3 - this is Room Name 2
-Room Description line4 - this is Room Name 2
-false
+Entrance
+You have entered a dark, low cave that seems to lead to a slightly larger cavern to the west.
+Strangely you see a faint
+glow coming from the east.
+exits
+You can go EAST or WEST
 ----
-South 5
-East 2
+East 1
+West 3
 ----
+3
+Cavern
+You enter a large cavern. You are surprised to find that the walls of the cave
+are glowing so you have no problem
+seeing the large stalactites that have formed. To the south you hear the sound of rushing water. To the north you hear
+strange sounds that sound like someone with a broken heart. You see as set of stairs at the west end of the cavern.
+exits
+You can go EAST or NORTH or DOWN
+
+----
+EAST 1
+NORTH 4
+DOWN 5
+----
+4
+Spooky Cave
+You have entered a dark twisting, tunnel that seems to wind around the Cavern. The low wailing you heard before has
+risen to a screech that is making your hair stand on end. You see a sign that says "Proceed at your own risk. Anyone
+entering this area will be eaten.
+exits
+You can go SOUTH
+----
+SOUTH 3
+----
+5
+Rushing River
+You have entered a wet, slippery cave. You are standing on a narrow ledge. As you slip toward the rushing river, you
+think, "I shouldn't be here.
+exits
+You can go EAST
+----
+EAST 6
+----
+6
+Second level
+At the bottom of the stairs you see a skeleton from a previous adventurer. You really wish you had some good weapons.
+exits
+You can go EAST or DOWN
+----
+EAST 7
+DOWN 8
+----
+7
+Cavern of Bones
+As you enter this dark and forbidding cavern you hear the roar of some enormous monster.
+You decide that leaving this place would be a great idea.
+exits
+You can go WEST
+----
+WEST 6
+----
+8
+Cavern of Bones
+This room is covered with the bones of previous adventurers.
+exits
+You can go NORTH or EAST or SOUTH
+----
+NORTH 6
+EAST 9
+SOUTH 10
+----
+9
+Impending Doom
+You feel very frightened by this room. Perhaps you need to leave quickly.
+exits
+You can go WEST
+----
+WEST 8
+----
+10
+Finish
+Congratulations!!! You have completed the journey through my maze
+exits
+
+
+
+
+
