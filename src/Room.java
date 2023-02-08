@@ -9,6 +9,9 @@ public class Room {
     ArrayList<String> exit;
     boolean isVisited;
 
+    public Room(){
+
+    }
     public Room(int id, String roomname, ArrayList<String> descript,
                 ArrayList<String> exit, boolean isVisited) {
         this.id = id;

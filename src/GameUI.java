@@ -1,4 +1,7 @@
+import java.io.File;
+import java.io.FileNotFoundException;
 import java.util.ArrayList;
+import java.util.Scanner;
 
 public class GameUI {
 
@@ -13,9 +16,37 @@ public class GameUI {
 //        ArrayList<Room> rooms;
         return false;
     }
-    static void main(String[] args) {
+    public static void main(String[] args) {
+
+        ArrayList<Room> rooms = new ArrayList<Room>();
+        try{
+            File file = new File("RoomsRef.txt");
+            Scanner sc = new Scanner(file);
+
+            while(sc.hasNextLine()){
+                Room room = new Room();
+                int roomID = Integer.parseInt(sc.nextLine());
+                String roomName = sc.nextLine();
+                String roomDescription = sc.nextLine();
+
+                //use loop to join the string.
+                //either you join each information as a long string as long
+                // as the line is not equals to "----"
+
+
+
+                //then, you will need to create elements of the exits.
+                //use a loop to add exit information.
+            }
+
+        }catch(FileNotFoundException e){
+
+        }
 
     }
+
+
+
     static void movePlayer(String userInput, Player plr, ArrayList<Room> room){
 //        String UserInput;
 //        Player plr;
