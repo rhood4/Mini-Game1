@@ -29,14 +29,34 @@ public class GameUI {
                 String roomName = sc.nextLine();
                 String roomDescription = sc.nextLine();
 
-                //use loop to join the string.
-                //either you join each information as a long string as long
-                // as the line is not equals to "----"
 
 
 
-                //then, you will need to create elements of the exits.
-                //use a loop to add exit information.
+//                Robert,
+//                The code block creates a room object if there is next line
+//                to process in RoomsRef.txt file. Then, it proceeds to read
+//                the room id and store it in the variable roomID.
+//                Next it moves on to the next line and save the data in that
+//                line as the room name in the variable roomName.Then, it goes
+//                to the next line and retrieves the description. It is stored
+//                in the variable roomDescription. The program stores this information,
+//                which is why you see output without any text being printed.
+//
+//                This while loop runs as long as the file has more lines to read, inside the loop.
+//
+//                Next thing to do:  You need to create another loop which will
+//                read in lines of Exits as connection between rooms. Each exit
+//                object includes a direction and a room Id as destination.
+//                you will need to add those two separate information to
+//                Room object by creating method such as addExits as a parameter
+//                in the Room object.
+//
+//
+//                        That’s the next task.
+
+
+
+
             }
 
         }catch(FileNotFoundException e){
